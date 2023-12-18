@@ -2,9 +2,9 @@ from psychopy import visual, core, event
 import random
 
 def display_instructions():
-    instruction_text = ("在這個遊戲中，您將看到顏色詞語（紅色，藍色，綠色）逐一出現。"
-                        "您的任務是按下與字體顏色相對應的按鈕，而不是詞語本身。\n\n"
-                        "儘量快速和準確地回應。\n\n"
+    instruction_text = ("在這個遊戲中，您將看到顏色詞語（紅色，藍色，綠色）逐一出現。\n\n"
+                        "\n您的任務是按下與字體顏色相對應的按鈕，而不是詞語本身。\n\n"
+                        "\n\n儘量快速和準確地回應。\n\n"
                         "回應鍵如下:\n\n"
                         "r = 紅色\n"
                         "b = 藍色\n"
