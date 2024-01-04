@@ -12,4 +12,10 @@ image_files = {
 
 We use image loading files instead of code generating files due to the complication of Psychopy's ability to naturaly process 
 Chinese across different system and platform. 
+In that case we wrote the whole code part in English, and anything Chinese in alternative image files to maintain the stability.
 Feel free to try it though ;)))
+
+The image file also only consist of one word instead of the normal lingustic choice of two word:
+        Ex: 紅 instead of 紅色, 綠 instead of 綠色, 藍 instead of 藍色
+We purposefully chosen the approach due to the percieved possible strategy among participants of only identifying the color of 色
+Instead of the original intention of suppressing inhibition
