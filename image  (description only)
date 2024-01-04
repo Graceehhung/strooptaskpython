@@ -9,3 +9,7 @@ image_files = {
     'blue': {'red': 'blue_red.png', 'green': 'blue_green.png', 'blue': 'blue_blue.png'}
 }
 
+
+We use image loading files instead of code generating files due to the complication of Psychopy's ability to naturaly process 
+Chinese across different system and platform. 
+Feel free to try it though ;)))
