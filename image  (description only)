@@ -1,0 +1,11 @@
+The image file consists of name as the below: color_word.png
+The participant will recieved the correct answer if the successfully identifed the color instead of word:
+        ex: red_blue.png ... the answer is correct if the participant answers red
+
+the total list of file names are as the below:
+image_files = {
+    'red': {'red': 'red_red.png', 'green': 'red_green.png', 'blue': 'red_blue.png'},
+    'green': {'red': 'green_red.png', 'green': 'green_green.png', 'blue': 'green_blue.png'},
+    'blue': {'red': 'blue_red.png', 'green': 'blue_green.png', 'blue': 'blue_blue.png'}
+}
+
